@@ -12,6 +12,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@prisma/composer": "0.11.0",
+    "@prisma/composer-prisma-cloud": "0.11.0",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-devtools": "latest",
     "@tanstack/react-router": "latest",
@@ -22,6 +24,7 @@
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
+    "@prisma/composer-cli": "0.11.0",
     "@tailwindcss/typography": "^0.5.16",
     "@tanstack/devtools-vite": "latest",
     "@tanstack/router-cli": "^1.132.0",
@@ -37,5 +40,8 @@
       "esbuild",
       "lightningcss"
     ]
+  },
+  "overrides": {
+    "effect": "4.0.0-beta.103"
   }
 }
